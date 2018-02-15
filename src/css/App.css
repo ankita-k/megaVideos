@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600');
+
+body {
+  background: #000001 !important;
+}
+
+.App {
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+/*----------------------------------
+ Header CSS 
+------------------------------------*/
+header {
+  position: relative;
+}
+.gradient-div {   
+  background-image: linear-gradient(to top, rgba(0,0,0,1) 0%, rgba(0,0,0,0) 100%);
+  position: absolute;
+  height: 30%;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  z-index: 9;
+}
+
+/*--------------------------------
+  Slick Carousel
+-----------------------------------*/
+
+.slick-slide img {
+  width: 100%;
+}
+section.new_arrival {
+  padding: 2em;
+}
+.new-arrival-carousel .newitem {
+  margin: 10px;
+}
+

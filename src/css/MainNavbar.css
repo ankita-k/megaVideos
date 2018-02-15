@@ -1,0 +1,34 @@
+.megavideo-nav {
+   background-image: linear-gradient(to top, rgba(0,0,0,0) 0%, rgba(0,0,0,1) 100%);
+   position: absolute;
+   top: 0;
+   left: 0;
+   right: 0;
+   width: 100%;
+   z-index: 9;
+}
+.megavideo-nav .navbar {
+    padding: 20px;
+}
+.megavideo-nav .nav-item a.nav-link {
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: 600;
+    font-size: 15px;
+    transition: all 0.3s ease;
+}
+.megavideo-nav .navitem-active a.nav-link, .megavideo-nav .navbar-light a.nav-link:hover {
+    color:#fe1d25;
+    font-weight: 600;
+}
+.megavideo-nav .nav-item a.nav-link i{
+    height: 30px;
+    width: 30px;
+    color: #fff;
+    background: #fe1d25;
+    text-align: center;
+    line-height: 30px;
+    display: inline-block;
+    border-radius: 50%;
+}
