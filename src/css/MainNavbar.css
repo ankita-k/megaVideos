@@ -7,9 +7,9 @@
    width: 100%;
    z-index: 9;
 }
-.megavideo-nav .navbar {
+/* .megavideo-nav .navbar {
     padding: 20px;
-}
+} */
 .megavideo-nav .nav-item a.nav-link {
     font-family: 'Montserrat', sans-serif;
     text-transform: uppercase;
@@ -35,9 +35,13 @@
 
 /* 20/02/2018 */
 .megavideo-nav {
-    background: #000000;
+    /* background: #000000; */
     position: fixed;
     line-height: 29px;
 }
 
 /* 20/02/2018 */
+
+.navbar-brand img {
+    width: 90px;
+}
