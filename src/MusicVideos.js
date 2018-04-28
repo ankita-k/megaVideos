@@ -28,7 +28,8 @@ class MusicVideo extends Component {
       return (
 
         <div className="new-arrival-carousel">
-          
+            <p className="videoheading">Music Videos</p>
+            <div className="dividerline"></div>
           <Slider {...settings}>
             <div> 
                <div className="newitem">
@@ -53,6 +54,7 @@ class MusicVideo extends Component {
                     <div className="content-details fadeIn-left">
                       <h3>This is a title</h3>
                       <p>This is a short description</p>
+                      <img src= {playbtn} />
                     </div>
                    
                   </a>
@@ -66,6 +68,7 @@ class MusicVideo extends Component {
                     <div className="content-details fadeIn-left">
                       <h3>This is a title</h3>
                       <p>This is a short description</p>
+                      <img src= {playbtn} />
                     </div>
                    
                   </a>
@@ -79,6 +82,7 @@ class MusicVideo extends Component {
                     <div className="content-details fadeIn-left">
                       <h3>This is a title</h3>
                       <p>This is a short description</p>
+                      <img src= {playbtn} />
                     </div>
                 
                   </a>

@@ -32,3 +32,12 @@
     display: inline-block;
     border-radius: 50%;
 }
+
+/* 20/02/2018 */
+.megavideo-nav {
+    background: #000000;
+    position: fixed;
+    line-height: 29px;
+}
+
+/* 20/02/2018 */

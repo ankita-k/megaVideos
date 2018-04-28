@@ -6,6 +6,9 @@ import MainNavbar from './MainNavbar.js';
 import MainSlider from './MainSlider.js'; 
 import NewArrival from './NewArrival.js';
 import MusicVideo from './MusicVideos.js';
+import FreeVideo from './FreeVideos.js';
+import KidsVideos from './KidsVideos.js';
+import TopVideos from './TopVideos.js'
 
 class App extends Component {
   render() {
@@ -21,6 +24,15 @@ class App extends Component {
         </section>
         <section className="new_arrival">
           <MusicVideo></MusicVideo>
+        </section>
+        <section className="new_arrival">
+          <FreeVideo></FreeVideo>
+        </section>
+        <section className="new_arrival">
+          <KidsVideos></KidsVideos>
+        </section>
+        <section className="new_arrival">
+          <TopVideos></TopVideos>
         </section>
       </div>
     );
