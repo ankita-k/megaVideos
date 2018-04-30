@@ -1,8 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import { BrowserRouter, Route, Switch, Redirect } from 'react-router-dom';
 import './css/index.css';
 import App from './App';
-// import registerServiceWorker from './registerServiceWorker';
+import Playback from './playback';
 
-ReactDOM.render(<App />, document.getElementById('root'));
+ReactDOM.render(<BrowserRouter><Switch>
+    <Route path="/" exact component={App} />
+    <Route path="/play/:id" component={Playback} />
+</Switch>
+</BrowserRouter>, document.getElementById('root'));
 // registerServiceWorker();

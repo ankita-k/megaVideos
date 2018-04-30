@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import logo from './images/logo.png';
+import logo2 from './images/logo2.png';
 import './css/App.css';
 import './themify-icons/themify-icons.css';
 import 'bootstrap/dist/css/bootstrap.css';
@@ -40,15 +40,12 @@ class MainNavbar extends Component {
     <div className="megavideo-nav">
        <Container>
          <Navbar color="faded" light expand="md">
-                <NavbarBrand href="/"> <img src={ logo }/> </NavbarBrand>
+                <NavbarBrand href="/"> <img src={ logo2 }/> </NavbarBrand>
                 <NavbarToggler onClick={this.toggle} />
                 <Collapse isOpen={this.state.isOpen} navbar>
                   <Nav className="ml-auto" navbar>
                     <NavItem className="navitem-active">
                       <NavLink href="/">Home</NavLink>
-                    </NavItem>
-                    <NavItem>
-                      <NavLink href="/">Videos</NavLink>
                     </NavItem>
                     <NavItem>
                       <NavLink href="/"><i className="ti-search"></i></NavLink>
